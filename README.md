@@ -4,6 +4,8 @@
 
 En enkel och responsiv portfolio i React + TypeScript skapad som en single-page application.
 
+Projekt livesatt via Vercel: https://portfolio-react-filip-brandt.vercel.app/#hem
+
 ## Projektbeskrivning
 
 Den här portfolion används som en personlig presentationsplats för mina projekt, kompetenser och kontaktuppgifter. Syftet är att visa mina färdigheter inom frontend-utveckling, samtidigt som den fungerar som en plats att utveckla vidare under utbildningen och inför LIA-sökandet.

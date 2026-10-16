@@ -14,7 +14,7 @@ export default function App() {
         <section id="hem" className="content-section">
           <h1>Välkommen till min Portfolio</h1>
           <img src={selfPortrait} alt="Filip Brandt" className="self-portrait" />
-          <p>Studerande Frontend-utvecklare med fullstack-kompetens</p>
+          <p>Hej! Jag heter Filip och jag är Studerande Frontend-utvecklare med fullstack-kompetens</p>
         </section>
         
         <section id="om-mig" className="content-section">

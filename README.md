@@ -1,4 +1,27 @@
-# Portfolio-React
+# Portfolio - Filip Brandt
+
+En enkel och responsiv portfolio i React + TypeScript skapad som en single-page application.
+
+## Projektbeskrivning
+
+Den här portfolion används som en personlig presentationsplats för mina projekt, kompetenser och kontaktuppgifter. Syftet är att visa mina färdigheter inom frontend-utveckling, samtidigt som den fungerar som en plats att utveckla vidare under utbildningen och inför LIA-sökandet.
+
+## Tech Stack
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+## Innehåll
+
+- Hem-sektion med presentation och profilbild
+- Om mig-sektion
+- Projektsektion med projektkort och taggar
+- Kontaktsektion med e-post, LinkedIn och GitHub
+- Responsiv navigation för mobil och desktop
+- Projektfilter för att filtrera projekt efter teknik-tag
 
 ## Starting wireframes
 

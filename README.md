@@ -23,7 +23,9 @@ Den här portfolion används som en personlig presentationsplats för mina proje
 - Responsiv navigation för mobil och desktop
 - Projektfilter för att filtrera projekt efter teknik-tag
 
-## Starting wireframes
+## Wireframes
+
+Mina skisser av hur jag tänkt att slutprodukten skulle se ut. Jag lade till en välkomsttext för hem-sektionen och lade bilden på mig själv där istället. 
 
 ### Desktop
 <img width="615" height="851" alt="bild" src="https://github.com/user-attachments/assets/173566b4-fe0f-4778-9a71-811115da754f" />

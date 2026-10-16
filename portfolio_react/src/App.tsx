@@ -1,5 +1,7 @@
-import './App.css'
 import Navbar from './components/Navbar';
+import ProjectCard from './components/ProjectCard';
+import { projectsData } from './data/projects';
+import type { Project } from './data/projects';
 import './index.css';
 
 export default function App() {
@@ -9,19 +11,36 @@ export default function App() {
       
       <main className="main-content">
         <section id="hem" className="content-section">
-          <h1>Hem</h1>
+          <h1>Välkommen till min Portfolio</h1>
+          <p>Studerande Frontend-utvecklare med fullstack-kompetens</p>
         </section>
         
         <section id="om-mig" className="content-section">
           <h2>Om mig</h2>
+          <p>Front-End Developer-student med en extrem inlärningsförmåga och hög uthållighet. Med ett starkt logiskt tänkande och förståelse för både 
+            klient- och serversidan (React/TypeScript/Node.js) sätter jag mig snabbt
+            in i komplexa kodbaser. Söker nu en LIA-plats där min noggrannhet kan
+            avlasta ert team från dag ett. Jag har B-körkort och kan jobba på plats i
+            större delen av Skåne, hybrid eller helt remote.</p>
         </section>
         
         <section id="projekt" className="content-section">
-          <h2>Projekt</h2>
+          <h2>Mina projekt</h2>
+          <div className="projects-list">
+            {projectsData.map((project: Project) => (
+              <ProjectCard key={project.id} project={project} />
+            ))}
+          </div>
         </section>
         
         <section id="kontakt" className="content-section">
           <h2>Kontakt</h2>
+          <div className="contact-info">
+            <p><strong>E-post:</strong> filipb1@live.se</p>
+            <p><strong>Telefon:</strong> 073-739 51 70</p>
+            <p><strong>LinkedIn:</strong> https://www.linkedin.com/in/filip-brandt-a53603233/</p>
+            <p><strong>Github:</strong> https://github.com/filip-brandt</p>
+          </div>
         </section>
       </main>
     </div>

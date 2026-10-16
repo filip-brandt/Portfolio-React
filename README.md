@@ -1,5 +1,7 @@
 # Portfolio - Filip Brandt
 
+<img width="1182" height="512" alt="bild" src="https://github.com/user-attachments/assets/3827874e-9e09-4890-9e8a-0d4f6cf42b92" />
+
 En enkel och responsiv portfolio i React + TypeScript skapad som en single-page application.
 
 ## Projektbeskrivning

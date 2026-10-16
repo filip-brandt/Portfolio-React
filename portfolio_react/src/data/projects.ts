@@ -18,7 +18,7 @@ export interface Project {
 export const projectsData: Project[] = [
   {
     id: 1,
-    title: "Skolprojekt: Webbshop med Javascript villkor",
+    title: "Skolprojekt: Webbshop med JavaScript-villkor",
     image: webShopImage,
     description: "JavaScript-tung e-handelsapplikation med fokus på komplex varukorgslogik och villkorliga betalningsformulär. Strukturerad med modern SCSS-arkitektur och semantisk HTML5.",
     tags: ["HTML", "SCSS", "JavaScript"],
@@ -37,7 +37,7 @@ export const projectsData: Project[] = [
     title: "Skolprojekt i grupp: Escape Room Spel",
     image: escapeRoomImage,
     description: "Interaktivt Escape Room-spel utvecklat som ett agilt gruppprojekt direkt för webbläsaren. Fokus på logikhantering, händelsestyrd programmering (DOM-manipulation) och versionshantering via Git för sömlöst teamsamarbete.",
-    tags: ["HTML", "CSS", "Typescript", "Vite", "ESLint", "Prettier", "Git"],
+    tags: ["HTML", "CSS", "TypeScript", "Vite", "ESLint", "Prettier", "Git"],
     repoUrl: "https://github.com/filip-brandt/Escape-Room-Game"
   },
   {
@@ -45,7 +45,7 @@ export const projectsData: Project[] = [
     title: "Skolprojekt: Hotell webbplats",
     image: hotelImage,
     description: "Slutprojekt i Webbutveckling 1 bestående av en responsiv och modern hotellwebbplats. Bedömd med högsta betyg (A) för välstrukturerad kod, semantisk HTML5, CSS3-arkitektur och god användarvänlighet (UI/UX).",
-    tags: ["HTML", "CSS", "Javascript"],
+    tags: ["HTML", "CSS", "JavaScript"],
     repoUrl: "https://github.com/filip-brandt/modul4-hotell"
   },
   {
@@ -53,7 +53,7 @@ export const projectsData: Project[] = [
     title: "Skolprojekt: Refaktorering av kodbas",
     image: sverigesRadioImage,
     description: "Skolprojekt fokuserat på refaktorering av befintlig kodbas samt strikt tillämpning av Conventional Commits. Rollspelat scenario kring att ta över en annan utvecklares kod, optimera strukturen och förbereda en kundpresentation.",
-    tags: ["HTML, SCSS", "TypeScript", "Refaktorering", "Conventional Commits", "Vite, ESLint", "Git"],
+    tags: ["HTML", "SCSS", "TypeScript", "Refaktorering", "Conventional Commits", "Vite", "ESLint", "Git"],
     repoUrl: "https://github.com/filip-brandt/Refaktorera-Kod"
   },
   {

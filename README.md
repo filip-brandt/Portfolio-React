@@ -32,3 +32,26 @@ Mina skisser av hur jag tänkt att slutprodukten skulle se ut. Jag lade till en 
 
 ### Mobile
 <img width="356" height="634" alt="bild" src="https://github.com/user-attachments/assets/cc55de8a-41fb-4a71-95b5-6e3757a35b57" />
+
+## Kör projektet lokalt
+
+1. Öppna terminalen i projektets rotmapp.
+2. Installera dependencies:
+
+```bash
+npm install
+```
+
+3. Starta utvecklingsservern:
+
+```bash
+npm run dev
+```
+
+4. Öppna den lokala adressen som visas i terminalen, oftast:
+
+```bash
+http://localhost:5173
+```
+
+> Om du står i fel katalog, se till att du är i mappen som innehåller `package.json` innan du kör kommandona.

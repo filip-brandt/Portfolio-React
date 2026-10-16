@@ -36,10 +36,23 @@ export default function App() {
         <section id="kontakt" className="content-section">
           <h2>Kontakt</h2>
           <div className="contact-info">
-            <p><strong>E-post:</strong> filipb1@live.se</p>
+            <p>
+              <strong>E-post:</strong>{' '}
+              <a href="mailto:filipb1@live.se">filipb1@live.se</a>
+            </p>
             <p><strong>Telefon:</strong> 073-739 51 70</p>
-            <p><strong>LinkedIn:</strong> https://www.linkedin.com/in/filip-brandt-a53603233/</p>
-            <p><strong>Github:</strong> https://github.com/filip-brandt</p>
+            <p>
+              <strong>LinkedIn:</strong>{' '}
+              <a href="https://www.linkedin.com/in/filip-brandt-a53603233/" target="_blank" rel="noopener noreferrer">
+                filip-brandt
+              </a>
+            </p>
+            <p>
+              <strong>GitHub:</strong>{' '}
+              <a href="https://github.com/filip-brandt" target="_blank" rel="noopener noreferrer">
+                filip-brandt
+              </a>
+            </p>
           </div>
         </section>
       </main>

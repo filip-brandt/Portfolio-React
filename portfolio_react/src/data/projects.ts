@@ -1,4 +1,4 @@
-import webShopImage from "../assets/Webshop.png";
+import webShopImage from "../assets/WebShop.png";
 import budgetAppImage from "../assets/BudgetApp.png";
 import escapeRoomImage from "../assets/EscapeRoom.png";
 import sverigesRadioImage from "../assets/SverigesRadio.png";

@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import ProjectCard from './components/ProjectCard';
 import { projectsData } from './data/projects';
 import type { Project } from './data/projects';
+import selfPortrait from './assets/SelfPortrait.png';
 import './index.css';
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
       <main className="main-content">
         <section id="hem" className="content-section">
           <h1>Välkommen till min Portfolio</h1>
+          <img src={selfPortrait} alt="Filip Brandt" className="self-portrait" />
           <p>Studerande Frontend-utvecklare med fullstack-kompetens</p>
         </section>
         
